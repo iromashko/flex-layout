@@ -7,7 +7,6 @@ html {
 }
 
 .content {
-  height: 800px;
   background-color: #eee;
 }
 .container-outer {
@@ -24,4 +23,25 @@ html {
 .container-element {
   border: 3px solid #c70039;
   padding: 10px;
+}
+
+.backgound {
+  &-container {
+    background-color: #900c3f;
+  }
+  &-inner {
+    background-color: #ff5733;
+  }
+  &-element {
+    background-color: #c70039;
+  }
+  &-outer {
+    background-color: #ffc300;
+  }
+  .height150 {
+    height: 150px;
+  }
+  .height250 {
+    height: 250px;
+  }
 }
